@@ -621,7 +621,7 @@ bool validarAno(Veiculo v)
     ano[cont] = '\0';
 
     anoNumero = atoi(ano);
-    printf("%i\n", anoNumero);
+    
     if (anoNumero < v.ano_modelo)
     {
         printf("O ano de aquisicao e menor que o ano do modelo!\n");
